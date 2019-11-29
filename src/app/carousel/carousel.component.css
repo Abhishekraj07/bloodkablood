@@ -1,4 +1,18 @@
 .jumbotron{
-    background-image: url(../../assets/image/blood-donation-banner-1024x374.jpg);
+    /* background-image: url(../../assets/image/blood-donation-banner-1024x374.jpg); */
    height: 50%;
+   border-radius: 0px;
+   background: #F9274E ;
+}/*
+.header1{
+    display:inline-block;
+}
+
+.user{
+    display: inline;
+}*/
+
+.mylogo{
+    display: inline;
+    
 }

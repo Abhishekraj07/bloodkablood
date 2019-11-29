@@ -13,6 +13,7 @@ import { BloodrequirementComponent } from './carousel/bloodrequirement/bloodrequ
 import { MoreComponent } from './carousel/more/more.component';
 import { ContactComponent } from './contact/contact.component';
 import { NewPageComponent } from './new-page/new-page.component';
+import { TipsComponent } from './tips/tips.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NewPageComponent } from './new-page/new-page.component';
     BloodrequirementComponent,
     MoreComponent,
     ContactComponent,
-    NewPageComponent
+    NewPageComponent,
+    TipsComponent
   ],
   imports: [
     BrowserModule,
