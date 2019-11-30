@@ -125,7 +125,18 @@ color: black;
   bottom: 0%;
     width: 100%;
     color: grey;
- }
- .blood-bank-color{     
+}
+
+/*navbar and casoral background color*/
+.blood-bank-color{     
    background: #F9274E;
- }
+}
+
+/* changes navbar link color on hover*/
+.nav-link:hover {
+    background-color: whitesmoke;
+    border-radius: 180px;
+}
+ul li a:hover{    
+    color: black;
+}

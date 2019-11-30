@@ -13,7 +13,8 @@ import { BloodrequirementComponent } from './carousel/bloodrequirement/bloodrequ
 import { MoreComponent } from './carousel/more/more.component';
 import { ContactComponent } from './contact/contact.component';
 import { NewPageComponent } from './new-page/new-page.component';
-import { TipsComponent } from './tips/tips.component';
+import { TipsComponent } from './carousel/tips/tips.component';
+import { LoginTabComponent } from './login/login-tab/login-tab.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TipsComponent } from './tips/tips.component';
     MoreComponent,
     ContactComponent,
     NewPageComponent,
-    TipsComponent
+    TipsComponent,
+    LoginTabComponent
   ],
   imports: [
     BrowserModule,

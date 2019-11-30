@@ -8,13 +8,13 @@ color: black;
    width: 80%;
     
 }
-.sha
+/*.sha
 {
     box-shadow:20px 20px 50px 15px grey;  
-}
+}*/
 .col1
 {
-background-color:black;
+background-color:#F9274E;
 }
 .col2
 {
@@ -25,4 +25,15 @@ background-color:black;
 {
     height: 80%;
     width: 100%;
+ background-color:#F9274E;
+
+}
+
+
+
+/*////////////*/
+a:hover{    
+    color: black;
+    border-radius: 0px;
+    background-color: whitesmoke;
 }
