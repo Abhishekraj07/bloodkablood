@@ -3,13 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { TipsComponent } from './carousel/tips/tips.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 const routes: Routes = [
 {path : 'login', component : LoginComponent},
-{path : 'home' , component :CarouselComponent},
-{path:'',component:CarouselComponent }
-
+{path : 'home' , component : CarouselComponent},
+{path : 'faq', component : FaqComponent},
+{path : '' , component : CarouselComponent} 
 ];
 
 @NgModule({
